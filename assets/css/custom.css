@@ -2,6 +2,23 @@
   border: 1px solid red;
 }
 
+body {
+  font-family: 'Nunito Regular';
+}
+
+section.hero h1 {
+  font-family: 'Nunito Bold';
+  color: #fff;
+  font-size: 5rem;
+  letter-spacing: .1rem;
+}
+
+section.hero p {
+  color: #fff;
+  font-size: 2.5rem;
+  letter-spacing: .1rem;
+}
+
 .bg-black {
     background-color: #000;
 }
@@ -19,5 +36,5 @@ section.hero::before {
   height: 80vh;
   background: #000;
   position: absolute;
-  opacity: .5;
+  opacity: .3;
 }
