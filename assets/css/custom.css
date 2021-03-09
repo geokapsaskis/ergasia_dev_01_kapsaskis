@@ -6,6 +6,26 @@ body {
   font-family: 'Nunito Regular';
 }
 
+.h-40 {
+  height: 40% !important;
+}
+
+h3 {
+  font-family: 'Nunito Bold';
+  font-size: 2.425rem;
+  letter-spacing: .02rem;
+}
+
+span {
+  font-size: 1.3125rem;
+  letter-spacing: .08rem;
+}
+
+p {
+  font-family: 'Nunito Light';
+  font-size: 1.3125rem;
+  letter-spacing: .04rem;
+}
 section.hero h1 {
   font-family: 'Nunito Bold';
   color: #fff;
@@ -37,4 +57,22 @@ section.hero::before {
   background: #000;
   position: absolute;
   opacity: .3;
+}
+
+section.about {
+  height: 100vh;
+  background: rgb(235,235,235);
+  background: linear-gradient(90deg, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 40%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
+}
+
+section.about .image_wrapper {
+  background: #fff;
+  box-shadow: 10px 10px 24px 1px rgba(0,0,0,0.57);
+  -webkit-box-shadow: 10px 10px 24px 1px rgba(0,0,0,0.57);
+  -moz-box-shadow: 10px 10px 24px 1px rgba(0,0,0,0.57);
+  text-align: center;
+}
+
+section.about  .image_wrapper img {
+  padding: 1rem;
 }
